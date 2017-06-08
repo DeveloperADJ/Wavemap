@@ -1,0 +1,975 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030A1C271E7AE1F4000C1F05 /* Wilhelm Richard Wagner - Flight of the Valkyries.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 030A1C261E7AE1F4000C1F05 /* Wilhelm Richard Wagner - Flight of the Valkyries.mp3 */; };
+		030A1C291E7AE3CC000C1F05 /* Super Sharp Shooter - The Ganja Kru.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 030A1C281E7AE3CC000C1F05 /* Super Sharp Shooter - The Ganja Kru.mp3 */; };
+		030A1C2B1E7AE519000C1F05 /* Jeff Mills - The Bells.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 030A1C2A1E7AE519000C1F05 /* Jeff Mills - The Bells.mp3 */; };
+		030A1C2D1E7AE5AA000C1F05 /* Jay-Z & Kanye West - Ni**as In Paris.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 030A1C2C1E7AE5AA000C1F05 /* Jay-Z & Kanye West - Ni**as In Paris.mp3 */; };
+		030A1C2F1E7AE620000C1F05 /* Daikaiju - The Trouble With Those Mothra Girls.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 030A1C2E1E7AE620000C1F05 /* Daikaiju - The Trouble With Those Mothra Girls.mp3 */; };
+		030A1C311E7AE689000C1F05 /* Iron Maiden - Run To The Hills.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 030A1C301E7AE689000C1F05 /* Iron Maiden - Run To The Hills.mp3 */; };
+		030A1C331E7AE742000C1F05 /* Maria Callas - L'amour est un oiseau rebelle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 030A1C321E7AE742000C1F05 /* Maria Callas - L'amour est un oiseau rebelle.mp3 */; };
+		030A1C351E7AEA3C000C1F05 /* Subatomic Sound System - Black Ark Vampires.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 030A1C341E7AEA3C000C1F05 /* Subatomic Sound System - Black Ark Vampires.mp3 */; };
+		030A1C371E7AF0B6000C1F05 /* Tchaikovsky - The Nutcracker Suite, Op 71a.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 030A1C361E7AF0B6000C1F05 /* Tchaikovsky - The Nutcracker Suite, Op 71a.mp3 */; };
+		031CEA771E9F798000F4FD38 /* Arctic Monkeys - R U Mine.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 031CEA761E9F798000F4FD38 /* Arctic Monkeys - R U Mine.mp3 */; };
+		031CEA7B1E9F798D00F4FD38 /* Bob Marley - Everything Is Gonna Be Alright.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 031CEA7A1E9F798D00F4FD38 /* Bob Marley - Everything Is Gonna Be Alright.mp3 */; };
+		031CEA7D1E9F799600F4FD38 /* Disclosure - White Noise ft. AlunaGeorge.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 031CEA7C1E9F799600F4FD38 /* Disclosure - White Noise ft. AlunaGeorge.mp3 */; };
+		031CEA7F1E9F7A1D00F4FD38 /* Buena Vista Social Club - El Cuarto de Tula.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 031CEA7E1E9F7A1D00F4FD38 /* Buena Vista Social Club - El Cuarto de Tula.mp3 */; };
+		031EBE2F1E7C5D1B00317140 /* pastel.json in Resources */ = {isa = PBXBuildFile; fileRef = 031EBE2E1E7C5D1B00317140 /* pastel.json */; };
+		031EBE311E7C658700317140 /* TourVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031EBE301E7C658700317140 /* TourVC.swift */; };
+		031F6CDE1E917583007454E4 /* FavoritesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031F6CDD1E917583007454E4 /* FavoritesVC.swift */; };
+		032F4EBD1E7C77A60097D18C /* TourModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032F4EBC1E7C77A60097D18C /* TourModel.swift */; };
+		032F4EC01E7C9CC90097D18C /* Travel+Leisure - Stedelijk Museum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 032F4EBF1E7C9CC90097D18C /* Travel+Leisure - Stedelijk Museum.mp3 */; };
+		032F4EC21E7C9D0D0097D18C /* Rick Steves Europe - The Van Gogh Museum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 032F4EC11E7C9D0D0097D18C /* Rick Steves Europe - The Van Gogh Museum.mp3 */; };
+		032F4EC41E7C9DA50097D18C /* Rick Steves Europe - Rijksmuseum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 032F4EC31E7C9DA50097D18C /* Rick Steves Europe - Rijksmuseum.mp3 */; };
+		034A54321E8D2BE400E68BD2 /* blue.json in Resources */ = {isa = PBXBuildFile; fileRef = 034A54311E8D2BE400E68BD2 /* blue.json */; };
+		035619561E7C16FB00A8D0D7 /* Howlin' Wolf - Smokestack Lightnin'.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 035619551E7C16FB00A8D0D7 /* Howlin' Wolf - Smokestack Lightnin'.mp3 */; };
+		035619581E7C19C100A8D0D7 /* Dj Luck & Mc Neat - Im Sorry.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 035619571E7C19C100A8D0D7 /* Dj Luck & Mc Neat - Im Sorry.mp3 */; };
+		0356195A1E7C1B4200A8D0D7 /* Adam Lambert - Ghost Town (Deep House Remix).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 035619591E7C1B4200A8D0D7 /* Adam Lambert - Ghost Town (Deep House Remix).mp3 */; };
+		0356195C1E7C1C4B00A8D0D7 /* Dj Chuckie - Who is ready to jump (Original Mix).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0356195B1E7C1C4B00A8D0D7 /* Dj Chuckie - Who is ready to jump (Original Mix).mp3 */; };
+		0356195E1E7C1E4800A8D0D7 /* LeLe - BreakFast.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0356195D1E7C1E4800A8D0D7 /* LeLe - BreakFast.mp3 */; };
+		035619601E7C1F8300A8D0D7 /* DJ Dano - Mayday.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0356195F1E7C1F8300A8D0D7 /* DJ Dano - Mayday.mp3 */; };
+		035619621E7C208700A8D0D7 /* Rugon Crowen - Iwazu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 035619611E7C208700A8D0D7 /* Rugon Crowen - Iwazu.mp3 */; };
+		035619641E7C215800A8D0D7 /* Flying Lotus - Massage Situation.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 035619631E7C215800A8D0D7 /* Flying Lotus - Massage Situation.mp3 */; };
+		035619661E7C223A00A8D0D7 /* Cypria - The Sweetest Thing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 035619651E7C223A00A8D0D7 /* Cypria - The Sweetest Thing.mp3 */; };
+		035619681E7C22B900A8D0D7 /* Mos Def - Mathematics.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 035619671E7C22B900A8D0D7 /* Mos Def - Mathematics.mp3 */; };
+		0356196A1E7C23EF00A8D0D7 /* The Weeknd - Starboy ft. Daft Punk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 035619691E7C23EF00A8D0D7 /* The Weeknd - Starboy ft. Daft Punk.mp3 */; };
+		0356196C1E7C251700A8D0D7 /* Puccini - Tosca.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0356196B1E7C251700A8D0D7 /* Puccini - Tosca.mp3 */; };
+		0356196E1E7C335C00A8D0D7 /* Slow Jeff & the Tears - Pillionaire.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0356196D1E7C335C00A8D0D7 /* Slow Jeff & the Tears - Pillionaire.mp3 */; };
+		035619701E7C33E600A8D0D7 /* Adriatique - Lophobia (Original Mix).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0356196F1E7C33E600A8D0D7 /* Adriatique - Lophobia (Original Mix).mp3 */; };
+		035619721E7C351000A8D0D7 /* Stardust - Music Sounds Better With You.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 035619711E7C351000A8D0D7 /* Stardust - Music Sounds Better With You.mp3 */; };
+		035619741E7C395200A8D0D7 /* Leftfield - Universal Everything.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 035619731E7C395200A8D0D7 /* Leftfield - Universal Everything.mp3 */; };
+		035619761E7C39C700A8D0D7 /* Kool & The Gang - Hollywood Swinging.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 035619751E7C39C700A8D0D7 /* Kool & The Gang - Hollywood Swinging.mp3 */; };
+		036F976D1E7D7D2800AA5D15 /* SelectMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036F976C1E7D7D2800AA5D15 /* SelectMapVC.swift */; };
+		036F976F1E7DC54300AA5D15 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036F976E1E7DC54300AA5D15 /* LoginModel.swift */; };
+		036F97711E7DC5CB00AA5D15 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036F97701E7DC5CB00AA5D15 /* RegisterVC.swift */; };
+		0384034B1EC4A034001C6DE2 /* SpotifyAudioPlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 038403491EC4A034001C6DE2 /* SpotifyAudioPlayback.framework */; };
+		0384034C1EC4A034001C6DE2 /* SpotifyAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0384034A1EC4A034001C6DE2 /* SpotifyAuthentication.framework */; };
+		0384034E1EC4A340001C6DE2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0384034D1EC4A340001C6DE2 /* AVFoundation.framework */; };
+		038403501EC4A353001C6DE2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0384034F1EC4A353001C6DE2 /* SystemConfiguration.framework */; };
+		038E58391E7AFF4A000CAD12 /* backwardPiano.wav in Resources */ = {isa = PBXBuildFile; fileRef = 038E58371E7AFF4A000CAD12 /* backwardPiano.wav */; };
+		038E583A1E7AFF4A000CAD12 /* forwardPiano.wav in Resources */ = {isa = PBXBuildFile; fileRef = 038E58381E7AFF4A000CAD12 /* forwardPiano.wav */; };
+		038E583C1E7B0147000CAD12 /* tapeClick.wav in Resources */ = {isa = PBXBuildFile; fileRef = 038E583B1E7B0147000CAD12 /* tapeClick.wav */; };
+		038FC3E71E5C80BE00802709 /* Daft Punk - One More Time.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 038FC3E61E5C80BE00802709 /* Daft Punk - One More Time.mp3 */; };
+		038FC4241E5CD89F00802709 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 038FC4231E5CD89F00802709 /* CoreLocation.framework */; };
+		039127AB1E5F826300FF90A4 /* MusicMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039127AA1E5F826300FF90A4 /* MusicMapVC.swift */; };
+		039127AE1E5F880100FF90A4 /* blackAndWhite.json in Resources */ = {isa = PBXBuildFile; fileRef = 039127AD1E5F880100FF90A4 /* blackAndWhite.json */; };
+		03A8FE121E638C510001C3FD /* SplashscreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A8FE111E638C510001C3FD /* SplashscreenVC.swift */; };
+		03A8FE141E638CC00001C3FD /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03A8FE131E638CC00001C3FD /* Launch Screen.storyboard */; };
+		03AF54DD1ED81EB800EB5DF6 /* TimeDateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AF54DC1ED81EB800EB5DF6 /* TimeDateModel.swift */; };
+		03B237591ED71EDC00A6C5D7 /* VenueModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B237581ED71EDC00A6C5D7 /* VenueModel.swift */; };
+		03B2375D1ED720F400A6C5D7 /* MusicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B2375C1ED720F400A6C5D7 /* MusicModel.swift */; };
+		03B2375F1ED722D400A6C5D7 /* FavouritesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B2375E1ED722D400A6C5D7 /* FavouritesModel.swift */; };
+		03C60D1A1E7BF9F400B61940 /* Konono No.1 - Yaya Mikolo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03C60D191E7BF9F400B61940 /* Konono No.1 - Yaya Mikolo.mp3 */; };
+		03C60D1C1E7BFCE300B61940 /* Charlie Parker - I've Got Rhythm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03C60D1B1E7BFCE300B61940 /* Charlie Parker - I've Got Rhythm.mp3 */; };
+		03C916CE1E6788660001D622 /* infoWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03C916CD1E6788660001D622 /* infoWindow.xib */; };
+		03C916D01E6788990001D622 /* infoWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C916CF1E6788990001D622 /* infoWindow.swift */; };
+		03D55E041E5DF25900FAC9F1 /* ShowSplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D55E031E5DF25900FAC9F1 /* ShowSplashScreen.swift */; };
+		03E99F721E64BBF1005EC6E9 /* ThemeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E99F711E64BBF1005EC6E9 /* ThemeModel.swift */; };
+		03EF3D3D1E8DB22000ABCB37 /* greyAndWhite.json in Resources */ = {isa = PBXBuildFile; fileRef = 03EF3D3C1E8DB22000ABCB37 /* greyAndWhite.json */; };
+		03F4E44A1E5B965A00758D04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F4E4491E5B965A00758D04 /* AppDelegate.swift */; };
+		03F4E44C1E5B965A00758D04 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F4E44B1E5B965A00758D04 /* LoginVC.swift */; };
+		03F4E44F1E5B965A00758D04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03F4E44D1E5B965A00758D04 /* Main.storyboard */; };
+		03F4E4511E5B965A00758D04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03F4E4501E5B965A00758D04 /* Assets.xcassets */; };
+		03F4E45F1E5B965A00758D04 /* TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F4E45E1E5B965A00758D04 /* TestTests.swift */; };
+		03F4E46A1E5B965A00758D04 /* TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F4E4691E5B965A00758D04 /* TestUITests.swift */; };
+		03F8B4261ED76C3100A285CC /* RegisterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F8B4251ED76C3100A285CC /* RegisterModel.swift */; };
+		138A6A4C6EF218B0F70D687F /* libPods-Wavemap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8641A9EF517B32D19B6BE04B /* libPods-Wavemap.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03F4E45B1E5B965A00758D04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03F4E43E1E5B965A00758D04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03F4E4451E5B965A00758D04;
+			remoteInfo = Test;
+		};
+		03F4E4661E5B965A00758D04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03F4E43E1E5B965A00758D04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03F4E4451E5B965A00758D04;
+			remoteInfo = Test;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		030A1C261E7AE1F4000C1F05 /* Wilhelm Richard Wagner - Flight of the Valkyries.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Wilhelm Richard Wagner - Flight of the Valkyries.mp3"; sourceTree = "<group>"; };
+		030A1C281E7AE3CC000C1F05 /* Super Sharp Shooter - The Ganja Kru.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Super Sharp Shooter - The Ganja Kru.mp3"; sourceTree = "<group>"; };
+		030A1C2A1E7AE519000C1F05 /* Jeff Mills - The Bells.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Jeff Mills - The Bells.mp3"; sourceTree = "<group>"; };
+		030A1C2C1E7AE5AA000C1F05 /* Jay-Z & Kanye West - Ni**as In Paris.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Jay-Z & Kanye West - Ni**as In Paris.mp3"; sourceTree = "<group>"; };
+		030A1C2E1E7AE620000C1F05 /* Daikaiju - The Trouble With Those Mothra Girls.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Daikaiju - The Trouble With Those Mothra Girls.mp3"; sourceTree = "<group>"; };
+		030A1C301E7AE689000C1F05 /* Iron Maiden - Run To The Hills.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Iron Maiden - Run To The Hills.mp3"; sourceTree = "<group>"; };
+		030A1C321E7AE742000C1F05 /* Maria Callas - L'amour est un oiseau rebelle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Maria Callas - L'amour est un oiseau rebelle.mp3"; sourceTree = "<group>"; };
+		030A1C341E7AEA3C000C1F05 /* Subatomic Sound System - Black Ark Vampires.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Subatomic Sound System - Black Ark Vampires.mp3"; sourceTree = "<group>"; };
+		030A1C361E7AF0B6000C1F05 /* Tchaikovsky - The Nutcracker Suite, Op 71a.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Tchaikovsky - The Nutcracker Suite, Op 71a.mp3"; sourceTree = "<group>"; };
+		031CEA761E9F798000F4FD38 /* Arctic Monkeys - R U Mine.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Arctic Monkeys - R U Mine.mp3"; sourceTree = "<group>"; };
+		031CEA7A1E9F798D00F4FD38 /* Bob Marley - Everything Is Gonna Be Alright.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bob Marley - Everything Is Gonna Be Alright.mp3"; sourceTree = "<group>"; };
+		031CEA7C1E9F799600F4FD38 /* Disclosure - White Noise ft. AlunaGeorge.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Disclosure - White Noise ft. AlunaGeorge.mp3"; sourceTree = "<group>"; };
+		031CEA7E1E9F7A1D00F4FD38 /* Buena Vista Social Club - El Cuarto de Tula.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Buena Vista Social Club - El Cuarto de Tula.mp3"; sourceTree = "<group>"; };
+		031EBE2E1E7C5D1B00317140 /* pastel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pastel.json; sourceTree = "<group>"; };
+		031EBE301E7C658700317140 /* TourVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TourVC.swift; sourceTree = "<group>"; };
+		031F6CDD1E917583007454E4 /* FavoritesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesVC.swift; sourceTree = "<group>"; };
+		032F4EBC1E7C77A60097D18C /* TourModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TourModel.swift; sourceTree = "<group>"; };
+		032F4EBF1E7C9CC90097D18C /* Travel+Leisure - Stedelijk Museum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Travel+Leisure - Stedelijk Museum.mp3"; sourceTree = "<group>"; };
+		032F4EC11E7C9D0D0097D18C /* Rick Steves Europe - The Van Gogh Museum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Rick Steves Europe - The Van Gogh Museum.mp3"; sourceTree = "<group>"; };
+		032F4EC31E7C9DA50097D18C /* Rick Steves Europe - Rijksmuseum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Rick Steves Europe - Rijksmuseum.mp3"; sourceTree = "<group>"; };
+		034A54311E8D2BE400E68BD2 /* blue.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = blue.json; sourceTree = "<group>"; };
+		035619551E7C16FB00A8D0D7 /* Howlin' Wolf - Smokestack Lightnin'.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Howlin' Wolf - Smokestack Lightnin'.mp3"; sourceTree = "<group>"; };
+		035619571E7C19C100A8D0D7 /* Dj Luck & Mc Neat - Im Sorry.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Dj Luck & Mc Neat - Im Sorry.mp3"; sourceTree = "<group>"; };
+		035619591E7C1B4200A8D0D7 /* Adam Lambert - Ghost Town (Deep House Remix).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Adam Lambert - Ghost Town (Deep House Remix).mp3"; sourceTree = "<group>"; };
+		0356195B1E7C1C4B00A8D0D7 /* Dj Chuckie - Who is ready to jump (Original Mix).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Dj Chuckie - Who is ready to jump (Original Mix).mp3"; sourceTree = "<group>"; };
+		0356195D1E7C1E4800A8D0D7 /* LeLe - BreakFast.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "LeLe - BreakFast.mp3"; sourceTree = "<group>"; };
+		0356195F1E7C1F8300A8D0D7 /* DJ Dano - Mayday.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "DJ Dano - Mayday.mp3"; sourceTree = "<group>"; };
+		035619611E7C208700A8D0D7 /* Rugon Crowen - Iwazu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Rugon Crowen - Iwazu.mp3"; sourceTree = "<group>"; };
+		035619631E7C215800A8D0D7 /* Flying Lotus - Massage Situation.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Flying Lotus - Massage Situation.mp3"; sourceTree = "<group>"; };
+		035619651E7C223A00A8D0D7 /* Cypria - The Sweetest Thing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Cypria - The Sweetest Thing.mp3"; sourceTree = "<group>"; };
+		035619671E7C22B900A8D0D7 /* Mos Def - Mathematics.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mos Def - Mathematics.mp3"; sourceTree = "<group>"; };
+		035619691E7C23EF00A8D0D7 /* The Weeknd - Starboy ft. Daft Punk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Weeknd - Starboy ft. Daft Punk.mp3"; sourceTree = "<group>"; };
+		0356196B1E7C251700A8D0D7 /* Puccini - Tosca.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Puccini - Tosca.mp3"; sourceTree = "<group>"; };
+		0356196D1E7C335C00A8D0D7 /* Slow Jeff & the Tears - Pillionaire.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Slow Jeff & the Tears - Pillionaire.mp3"; sourceTree = "<group>"; };
+		0356196F1E7C33E600A8D0D7 /* Adriatique - Lophobia (Original Mix).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Adriatique - Lophobia (Original Mix).mp3"; sourceTree = "<group>"; };
+		035619711E7C351000A8D0D7 /* Stardust - Music Sounds Better With You.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Stardust - Music Sounds Better With You.mp3"; sourceTree = "<group>"; };
+		035619731E7C395200A8D0D7 /* Leftfield - Universal Everything.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Leftfield - Universal Everything.mp3"; sourceTree = "<group>"; };
+		035619751E7C39C700A8D0D7 /* Kool & The Gang - Hollywood Swinging.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Kool & The Gang - Hollywood Swinging.mp3"; sourceTree = "<group>"; };
+		036F976C1E7D7D2800AA5D15 /* SelectMapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectMapVC.swift; sourceTree = "<group>"; };
+		036F976E1E7DC54300AA5D15 /* LoginModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		036F97701E7DC5CB00AA5D15 /* RegisterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		038403491EC4A034001C6DE2 /* SpotifyAudioPlayback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAudioPlayback.framework; sourceTree = "<group>"; };
+		0384034A1EC4A034001C6DE2 /* SpotifyAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAuthentication.framework; sourceTree = "<group>"; };
+		0384034D1EC4A340001C6DE2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0384034F1EC4A353001C6DE2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		038E58371E7AFF4A000CAD12 /* backwardPiano.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = backwardPiano.wav; sourceTree = "<group>"; };
+		038E58381E7AFF4A000CAD12 /* forwardPiano.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = forwardPiano.wav; sourceTree = "<group>"; };
+		038E583B1E7B0147000CAD12 /* tapeClick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tapeClick.wav; sourceTree = "<group>"; };
+		038FC3E61E5C80BE00802709 /* Daft Punk - One More Time.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Daft Punk - One More Time.mp3"; sourceTree = "<group>"; };
+		038FC4231E5CD89F00802709 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		039127AA1E5F826300FF90A4 /* MusicMapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicMapVC.swift; sourceTree = "<group>"; };
+		039127AD1E5F880100FF90A4 /* blackAndWhite.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = blackAndWhite.json; path = "/Applications/Adobe InDesign CC 2017/Resources/CEP/extensions/HTMLPosterGenerator/node_modules/node-uuid/blackAndWhite.json"; sourceTree = "<absolute>"; };
+		03A8FE111E638C510001C3FD /* SplashscreenVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashscreenVC.swift; sourceTree = "<group>"; };
+		03A8FE131E638CC00001C3FD /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		03AF54DC1ED81EB800EB5DF6 /* TimeDateModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeDateModel.swift; sourceTree = "<group>"; };
+		03B237581ED71EDC00A6C5D7 /* VenueModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueModel.swift; sourceTree = "<group>"; };
+		03B2375C1ED720F400A6C5D7 /* MusicModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicModel.swift; sourceTree = "<group>"; };
+		03B2375E1ED722D400A6C5D7 /* FavouritesModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavouritesModel.swift; sourceTree = "<group>"; };
+		03C60D191E7BF9F400B61940 /* Konono No.1 - Yaya Mikolo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Konono No.1 - Yaya Mikolo.mp3"; sourceTree = "<group>"; };
+		03C60D1B1E7BFCE300B61940 /* Charlie Parker - I've Got Rhythm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Charlie Parker - I've Got Rhythm.mp3"; sourceTree = "<group>"; };
+		03C916CD1E6788660001D622 /* infoWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = infoWindow.xib; sourceTree = "<group>"; };
+		03C916CF1E6788990001D622 /* infoWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = infoWindow.swift; sourceTree = "<group>"; };
+		03D55E031E5DF25900FAC9F1 /* ShowSplashScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowSplashScreen.swift; sourceTree = "<group>"; };
+		03E99F711E64BBF1005EC6E9 /* ThemeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeModel.swift; sourceTree = "<group>"; };
+		03EF3D3C1E8DB22000ABCB37 /* greyAndWhite.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = greyAndWhite.json; sourceTree = "<group>"; };
+		03F4E4461E5B965A00758D04 /* Wavemap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wavemap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03F4E4491E5B965A00758D04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03F4E44B1E5B965A00758D04 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		03F4E44E1E5B965A00758D04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03F4E4501E5B965A00758D04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03F4E4551E5B965A00758D04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03F4E45A1E5B965A00758D04 /* WavemapWavemaps.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WavemapWavemaps.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03F4E45E1E5B965A00758D04 /* TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTests.swift; sourceTree = "<group>"; };
+		03F4E4601E5B965A00758D04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03F4E4651E5B965A00758D04 /* WavemapUIWavemaps.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WavemapUIWavemaps.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03F4E4691E5B965A00758D04 /* TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUITests.swift; sourceTree = "<group>"; };
+		03F4E46B1E5B965A00758D04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03F8B4251ED76C3100A285CC /* RegisterModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterModel.swift; sourceTree = "<group>"; };
+		2895B3511987F5502029B62B /* Pods-Wavemap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wavemap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wavemap/Pods-Wavemap.debug.xcconfig"; sourceTree = "<group>"; };
+		60A9E15E73B069AA4F2C51C5 /* Pods-Wavemap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wavemap.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wavemap/Pods-Wavemap.release.xcconfig"; sourceTree = "<group>"; };
+		8641A9EF517B32D19B6BE04B /* libPods-Wavemap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Wavemap.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03F4E4431E5B965A00758D04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				038403501EC4A353001C6DE2 /* SystemConfiguration.framework in Frameworks */,
+				0384034E1EC4A340001C6DE2 /* AVFoundation.framework in Frameworks */,
+				038FC4241E5CD89F00802709 /* CoreLocation.framework in Frameworks */,
+				0384034C1EC4A034001C6DE2 /* SpotifyAuthentication.framework in Frameworks */,
+				138A6A4C6EF218B0F70D687F /* libPods-Wavemap.a in Frameworks */,
+				0384034B1EC4A034001C6DE2 /* SpotifyAudioPlayback.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F4E4571E5B965A00758D04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F4E4621E5B965A00758D04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		031F6CDB1E917459007454E4 /* Style JSON  */ = {
+			isa = PBXGroup;
+			children = (
+				039127AD1E5F880100FF90A4 /* blackAndWhite.json */,
+				03EF3D3C1E8DB22000ABCB37 /* greyAndWhite.json */,
+				034A54311E8D2BE400E68BD2 /* blue.json */,
+				031EBE2E1E7C5D1B00317140 /* pastel.json */,
+			);
+			name = "Style JSON ";
+			sourceTree = "<group>";
+		};
+		031F6CDC1E917537007454E4 /* Select Map */ = {
+			isa = PBXGroup;
+			children = (
+				036F976C1E7D7D2800AA5D15 /* SelectMapVC.swift */,
+			);
+			name = "Select Map";
+			sourceTree = "<group>";
+		};
+		032F4EBE1E7C9CB40097D18C /* Audio Tours */ = {
+			isa = PBXGroup;
+			children = (
+				032F4EC31E7C9DA50097D18C /* Rick Steves Europe - Rijksmuseum.mp3 */,
+				032F4EC11E7C9D0D0097D18C /* Rick Steves Europe - The Van Gogh Museum.mp3 */,
+				032F4EBF1E7C9CC90097D18C /* Travel+Leisure - Stedelijk Museum.mp3 */,
+			);
+			name = "Audio Tours";
+			sourceTree = "<group>";
+		};
+		038E58361E7AFF16000CAD12 /* Sound FX */ = {
+			isa = PBXGroup;
+			children = (
+				038E58371E7AFF4A000CAD12 /* backwardPiano.wav */,
+				038E583B1E7B0147000CAD12 /* tapeClick.wav */,
+				038E58381E7AFF4A000CAD12 /* forwardPiano.wav */,
+			);
+			name = "Sound FX";
+			sourceTree = "<group>";
+		};
+		038FC4221E5CD89F00802709 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0384034F1EC4A353001C6DE2 /* SystemConfiguration.framework */,
+				0384034D1EC4A340001C6DE2 /* AVFoundation.framework */,
+				038403491EC4A034001C6DE2 /* SpotifyAudioPlayback.framework */,
+				0384034A1EC4A034001C6DE2 /* SpotifyAuthentication.framework */,
+				038FC4231E5CD89F00802709 /* CoreLocation.framework */,
+				8641A9EF517B32D19B6BE04B /* libPods-Wavemap.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03B2375A1ED71F4800A6C5D7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				03E99F711E64BBF1005EC6E9 /* ThemeModel.swift */,
+				03B237581ED71EDC00A6C5D7 /* VenueModel.swift */,
+				03B2375C1ED720F400A6C5D7 /* MusicModel.swift */,
+				03B2375E1ED722D400A6C5D7 /* FavouritesModel.swift */,
+				03AF54DC1ED81EB800EB5DF6 /* TimeDateModel.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		03B2375B1ED71F5200A6C5D7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				039127AA1E5F826300FF90A4 /* MusicMapVC.swift */,
+				031F6CDD1E917583007454E4 /* FavoritesVC.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		03B3F58F1E8BBA69004DEF18 /* MusicMap */ = {
+			isa = PBXGroup;
+			children = (
+				03B2375A1ED71F4800A6C5D7 /* Models */,
+				03B2375B1ED71F5200A6C5D7 /* Controllers */,
+			);
+			name = MusicMap;
+			sourceTree = "<group>";
+		};
+		03B3F5901E8BBA73004DEF18 /* TourMap */ = {
+			isa = PBXGroup;
+			children = (
+				032F4EBC1E7C77A60097D18C /* TourModel.swift */,
+				031EBE301E7C658700317140 /* TourVC.swift */,
+			);
+			name = TourMap;
+			sourceTree = "<group>";
+		};
+		03B3F5971E8BBAEF004DEF18 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				036F976E1E7DC54300AA5D15 /* LoginModel.swift */,
+				03F4E44B1E5B965A00758D04 /* LoginVC.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		03B3F59B1E8BC203004DEF18 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				03F8B4251ED76C3100A285CC /* RegisterModel.swift */,
+				036F97701E7DC5CB00AA5D15 /* RegisterVC.swift */,
+			);
+			name = Register;
+			sourceTree = "<group>";
+		};
+		03C916CC1E66E1520001D622 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				031F6CDB1E917459007454E4 /* Style JSON  */,
+				03A8FE131E638CC00001C3FD /* Launch Screen.storyboard */,
+				03C916CF1E6788990001D622 /* infoWindow.swift */,
+				03C916CD1E6788660001D622 /* infoWindow.xib */,
+				03A8FE111E638C510001C3FD /* SplashscreenVC.swift */,
+				03D55E031E5DF25900FAC9F1 /* ShowSplashScreen.swift */,
+				03F4E4501E5B965A00758D04 /* Assets.xcassets */,
+				03F4E4551E5B965A00758D04 /* Info.plist */,
+				03F4E4491E5B965A00758D04 /* AppDelegate.swift */,
+				032F4EBE1E7C9CB40097D18C /* Audio Tours */,
+				038E58361E7AFF16000CAD12 /* Sound FX */,
+				03FC949A1E620361002FA251 /* Music */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03F4E43D1E5B965A00758D04 = {
+			isa = PBXGroup;
+			children = (
+				03F4E4481E5B965A00758D04 /* Test */,
+				03F4E45D1E5B965A00758D04 /* TestTests */,
+				03F4E4681E5B965A00758D04 /* TestUITests */,
+				03F4E4471E5B965A00758D04 /* Products */,
+				038FC4221E5CD89F00802709 /* Frameworks */,
+				71082431551EC2308B7BA429 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		03F4E4471E5B965A00758D04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03F4E4461E5B965A00758D04 /* Wavemap.app */,
+				03F4E45A1E5B965A00758D04 /* WavemapWavemaps.xctest */,
+				03F4E4651E5B965A00758D04 /* WavemapUIWavemaps.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03F4E4481E5B965A00758D04 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				03F4E44D1E5B965A00758D04 /* Main.storyboard */,
+				03B3F5971E8BBAEF004DEF18 /* Login */,
+				03B3F59B1E8BC203004DEF18 /* Register */,
+				031F6CDC1E917537007454E4 /* Select Map */,
+				03B3F58F1E8BBA69004DEF18 /* MusicMap */,
+				03B3F5901E8BBA73004DEF18 /* TourMap */,
+				03C916CC1E66E1520001D622 /* Supporting Files */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		03F4E45D1E5B965A00758D04 /* TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				03F4E45E1E5B965A00758D04 /* TestTests.swift */,
+				03F4E4601E5B965A00758D04 /* Info.plist */,
+			);
+			path = TestTests;
+			sourceTree = "<group>";
+		};
+		03F4E4681E5B965A00758D04 /* TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03F4E4691E5B965A00758D04 /* TestUITests.swift */,
+				03F4E46B1E5B965A00758D04 /* Info.plist */,
+			);
+			path = TestUITests;
+			sourceTree = "<group>";
+		};
+		03FC949A1E620361002FA251 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				030A1C281E7AE3CC000C1F05 /* Super Sharp Shooter - The Ganja Kru.mp3 */,
+				0356196D1E7C335C00A8D0D7 /* Slow Jeff & the Tears - Pillionaire.mp3 */,
+				035619691E7C23EF00A8D0D7 /* The Weeknd - Starboy ft. Daft Punk.mp3 */,
+				035619731E7C395200A8D0D7 /* Leftfield - Universal Everything.mp3 */,
+				035619751E7C39C700A8D0D7 /* Kool & The Gang - Hollywood Swinging.mp3 */,
+				031CEA7A1E9F798D00F4FD38 /* Bob Marley - Everything Is Gonna Be Alright.mp3 */,
+				035619671E7C22B900A8D0D7 /* Mos Def - Mathematics.mp3 */,
+				031CEA7E1E9F7A1D00F4FD38 /* Buena Vista Social Club - El Cuarto de Tula.mp3 */,
+				0356196F1E7C33E600A8D0D7 /* Adriatique - Lophobia (Original Mix).mp3 */,
+				031CEA7C1E9F799600F4FD38 /* Disclosure - White Noise ft. AlunaGeorge.mp3 */,
+				031CEA761E9F798000F4FD38 /* Arctic Monkeys - R U Mine.mp3 */,
+				03C60D1B1E7BFCE300B61940 /* Charlie Parker - I've Got Rhythm.mp3 */,
+				035619651E7C223A00A8D0D7 /* Cypria - The Sweetest Thing.mp3 */,
+				035619711E7C351000A8D0D7 /* Stardust - Music Sounds Better With You.mp3 */,
+				0356196B1E7C251700A8D0D7 /* Puccini - Tosca.mp3 */,
+				035619631E7C215800A8D0D7 /* Flying Lotus - Massage Situation.mp3 */,
+				0356195F1E7C1F8300A8D0D7 /* DJ Dano - Mayday.mp3 */,
+				035619611E7C208700A8D0D7 /* Rugon Crowen - Iwazu.mp3 */,
+				0356195D1E7C1E4800A8D0D7 /* LeLe - BreakFast.mp3 */,
+				0356195B1E7C1C4B00A8D0D7 /* Dj Chuckie - Who is ready to jump (Original Mix).mp3 */,
+				035619591E7C1B4200A8D0D7 /* Adam Lambert - Ghost Town (Deep House Remix).mp3 */,
+				035619571E7C19C100A8D0D7 /* Dj Luck & Mc Neat - Im Sorry.mp3 */,
+				035619551E7C16FB00A8D0D7 /* Howlin' Wolf - Smokestack Lightnin'.mp3 */,
+				030A1C341E7AEA3C000C1F05 /* Subatomic Sound System - Black Ark Vampires.mp3 */,
+				03C60D191E7BF9F400B61940 /* Konono No.1 - Yaya Mikolo.mp3 */,
+				030A1C301E7AE689000C1F05 /* Iron Maiden - Run To The Hills.mp3 */,
+				030A1C361E7AF0B6000C1F05 /* Tchaikovsky - The Nutcracker Suite, Op 71a.mp3 */,
+				030A1C321E7AE742000C1F05 /* Maria Callas - L'amour est un oiseau rebelle.mp3 */,
+				030A1C2C1E7AE5AA000C1F05 /* Jay-Z & Kanye West - Ni**as In Paris.mp3 */,
+				030A1C2E1E7AE620000C1F05 /* Daikaiju - The Trouble With Those Mothra Girls.mp3 */,
+				030A1C261E7AE1F4000C1F05 /* Wilhelm Richard Wagner - Flight of the Valkyries.mp3 */,
+				030A1C2A1E7AE519000C1F05 /* Jeff Mills - The Bells.mp3 */,
+				038FC3E61E5C80BE00802709 /* Daft Punk - One More Time.mp3 */,
+			);
+			name = Music;
+			sourceTree = "<group>";
+		};
+		71082431551EC2308B7BA429 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2895B3511987F5502029B62B /* Pods-Wavemap.debug.xcconfig */,
+				60A9E15E73B069AA4F2C51C5 /* Pods-Wavemap.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03F4E4451E5B965A00758D04 /* Wavemap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03F4E46E1E5B965A00758D04 /* Build configuration list for PBXNativeTarget "Wavemap" */;
+			buildPhases = (
+				A6F7D5E8BC18B9DAC6A52286 /* [CP] Check Pods Manifest.lock */,
+				03F4E4421E5B965A00758D04 /* Sources */,
+				03F4E4431E5B965A00758D04 /* Frameworks */,
+				03F4E4441E5B965A00758D04 /* Resources */,
+				792B5145C580757DBCA94149 /* [CP] Embed Pods Frameworks */,
+				670B52289F5007D059B819A4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wavemap;
+			productName = Test;
+			productReference = 03F4E4461E5B965A00758D04 /* Wavemap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03F4E4591E5B965A00758D04 /* WavemapWavemaps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03F4E4711E5B965A00758D04 /* Build configuration list for PBXNativeTarget "WavemapWavemaps" */;
+			buildPhases = (
+				03F4E4561E5B965A00758D04 /* Sources */,
+				03F4E4571E5B965A00758D04 /* Frameworks */,
+				03F4E4581E5B965A00758D04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03F4E45C1E5B965A00758D04 /* PBXTargetDependency */,
+			);
+			name = WavemapWavemaps;
+			productName = TestTests;
+			productReference = 03F4E45A1E5B965A00758D04 /* WavemapWavemaps.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03F4E4641E5B965A00758D04 /* WavemapUIWavemaps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03F4E4741E5B965A00758D04 /* Build configuration list for PBXNativeTarget "WavemapUIWavemaps" */;
+			buildPhases = (
+				03F4E4611E5B965A00758D04 /* Sources */,
+				03F4E4621E5B965A00758D04 /* Frameworks */,
+				03F4E4631E5B965A00758D04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03F4E4671E5B965A00758D04 /* PBXTargetDependency */,
+			);
+			name = WavemapUIWavemaps;
+			productName = TestUITests;
+			productReference = 03F4E4651E5B965A00758D04 /* WavemapUIWavemaps.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03F4E43E1E5B965A00758D04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Arno de Jonge";
+				TargetAttributes = {
+					03F4E4451E5B965A00758D04 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = WLLZKFZEM6;
+						ProvisioningStyle = Automatic;
+					};
+					03F4E4591E5B965A00758D04 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ZVQU83DR2L;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 03F4E4451E5B965A00758D04;
+					};
+					03F4E4641E5B965A00758D04 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ZVQU83DR2L;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 03F4E4451E5B965A00758D04;
+					};
+				};
+			};
+			buildConfigurationList = 03F4E4411E5B965A00758D04 /* Build configuration list for PBXProject "Wavemap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03F4E43D1E5B965A00758D04;
+			productRefGroup = 03F4E4471E5B965A00758D04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03F4E4451E5B965A00758D04 /* Wavemap */,
+				03F4E4591E5B965A00758D04 /* WavemapWavemaps */,
+				03F4E4641E5B965A00758D04 /* WavemapUIWavemaps */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03F4E4441E5B965A00758D04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0356195E1E7C1E4800A8D0D7 /* LeLe - BreakFast.mp3 in Resources */,
+				030A1C2B1E7AE519000C1F05 /* Jeff Mills - The Bells.mp3 in Resources */,
+				0356195A1E7C1B4200A8D0D7 /* Adam Lambert - Ghost Town (Deep House Remix).mp3 in Resources */,
+				03C60D1A1E7BF9F400B61940 /* Konono No.1 - Yaya Mikolo.mp3 in Resources */,
+				035619661E7C223A00A8D0D7 /* Cypria - The Sweetest Thing.mp3 in Resources */,
+				034A54321E8D2BE400E68BD2 /* blue.json in Resources */,
+				0356196A1E7C23EF00A8D0D7 /* The Weeknd - Starboy ft. Daft Punk.mp3 in Resources */,
+				035619761E7C39C700A8D0D7 /* Kool & The Gang - Hollywood Swinging.mp3 in Resources */,
+				038E583C1E7B0147000CAD12 /* tapeClick.wav in Resources */,
+				03C916CE1E6788660001D622 /* infoWindow.xib in Resources */,
+				035619721E7C351000A8D0D7 /* Stardust - Music Sounds Better With You.mp3 in Resources */,
+				030A1C271E7AE1F4000C1F05 /* Wilhelm Richard Wagner - Flight of the Valkyries.mp3 in Resources */,
+				030A1C371E7AF0B6000C1F05 /* Tchaikovsky - The Nutcracker Suite, Op 71a.mp3 in Resources */,
+				035619741E7C395200A8D0D7 /* Leftfield - Universal Everything.mp3 in Resources */,
+				0356196C1E7C251700A8D0D7 /* Puccini - Tosca.mp3 in Resources */,
+				038E58391E7AFF4A000CAD12 /* backwardPiano.wav in Resources */,
+				039127AE1E5F880100FF90A4 /* blackAndWhite.json in Resources */,
+				030A1C2F1E7AE620000C1F05 /* Daikaiju - The Trouble With Those Mothra Girls.mp3 in Resources */,
+				038FC3E71E5C80BE00802709 /* Daft Punk - One More Time.mp3 in Resources */,
+				032F4EC21E7C9D0D0097D18C /* Rick Steves Europe - The Van Gogh Museum.mp3 in Resources */,
+				031CEA771E9F798000F4FD38 /* Arctic Monkeys - R U Mine.mp3 in Resources */,
+				035619621E7C208700A8D0D7 /* Rugon Crowen - Iwazu.mp3 in Resources */,
+				035619601E7C1F8300A8D0D7 /* DJ Dano - Mayday.mp3 in Resources */,
+				035619641E7C215800A8D0D7 /* Flying Lotus - Massage Situation.mp3 in Resources */,
+				031CEA7B1E9F798D00F4FD38 /* Bob Marley - Everything Is Gonna Be Alright.mp3 in Resources */,
+				035619681E7C22B900A8D0D7 /* Mos Def - Mathematics.mp3 in Resources */,
+				031CEA7F1E9F7A1D00F4FD38 /* Buena Vista Social Club - El Cuarto de Tula.mp3 in Resources */,
+				030A1C311E7AE689000C1F05 /* Iron Maiden - Run To The Hills.mp3 in Resources */,
+				035619701E7C33E600A8D0D7 /* Adriatique - Lophobia (Original Mix).mp3 in Resources */,
+				03C60D1C1E7BFCE300B61940 /* Charlie Parker - I've Got Rhythm.mp3 in Resources */,
+				030A1C351E7AEA3C000C1F05 /* Subatomic Sound System - Black Ark Vampires.mp3 in Resources */,
+				032F4EC01E7C9CC90097D18C /* Travel+Leisure - Stedelijk Museum.mp3 in Resources */,
+				03A8FE141E638CC00001C3FD /* Launch Screen.storyboard in Resources */,
+				030A1C331E7AE742000C1F05 /* Maria Callas - L'amour est un oiseau rebelle.mp3 in Resources */,
+				03F4E4511E5B965A00758D04 /* Assets.xcassets in Resources */,
+				0356195C1E7C1C4B00A8D0D7 /* Dj Chuckie - Who is ready to jump (Original Mix).mp3 in Resources */,
+				03EF3D3D1E8DB22000ABCB37 /* greyAndWhite.json in Resources */,
+				032F4EC41E7C9DA50097D18C /* Rick Steves Europe - Rijksmuseum.mp3 in Resources */,
+				031CEA7D1E9F799600F4FD38 /* Disclosure - White Noise ft. AlunaGeorge.mp3 in Resources */,
+				03F4E44F1E5B965A00758D04 /* Main.storyboard in Resources */,
+				031EBE2F1E7C5D1B00317140 /* pastel.json in Resources */,
+				035619561E7C16FB00A8D0D7 /* Howlin' Wolf - Smokestack Lightnin'.mp3 in Resources */,
+				030A1C2D1E7AE5AA000C1F05 /* Jay-Z & Kanye West - Ni**as In Paris.mp3 in Resources */,
+				030A1C291E7AE3CC000C1F05 /* Super Sharp Shooter - The Ganja Kru.mp3 in Resources */,
+				035619581E7C19C100A8D0D7 /* Dj Luck & Mc Neat - Im Sorry.mp3 in Resources */,
+				0356196E1E7C335C00A8D0D7 /* Slow Jeff & the Tears - Pillionaire.mp3 in Resources */,
+				038E583A1E7AFF4A000CAD12 /* forwardPiano.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F4E4581E5B965A00758D04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F4E4631E5B965A00758D04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		670B52289F5007D059B819A4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wavemap/Pods-Wavemap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		792B5145C580757DBCA94149 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wavemap/Pods-Wavemap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6F7D5E8BC18B9DAC6A52286 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03F4E4421E5B965A00758D04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				031EBE311E7C658700317140 /* TourVC.swift in Sources */,
+				03C916D01E6788990001D622 /* infoWindow.swift in Sources */,
+				03E99F721E64BBF1005EC6E9 /* ThemeModel.swift in Sources */,
+				039127AB1E5F826300FF90A4 /* MusicMapVC.swift in Sources */,
+				031F6CDE1E917583007454E4 /* FavoritesVC.swift in Sources */,
+				03B237591ED71EDC00A6C5D7 /* VenueModel.swift in Sources */,
+				03F4E44C1E5B965A00758D04 /* LoginVC.swift in Sources */,
+				032F4EBD1E7C77A60097D18C /* TourModel.swift in Sources */,
+				03B2375D1ED720F400A6C5D7 /* MusicModel.swift in Sources */,
+				03B2375F1ED722D400A6C5D7 /* FavouritesModel.swift in Sources */,
+				03AF54DD1ED81EB800EB5DF6 /* TimeDateModel.swift in Sources */,
+				036F976D1E7D7D2800AA5D15 /* SelectMapVC.swift in Sources */,
+				03F4E44A1E5B965A00758D04 /* AppDelegate.swift in Sources */,
+				03A8FE121E638C510001C3FD /* SplashscreenVC.swift in Sources */,
+				03F8B4261ED76C3100A285CC /* RegisterModel.swift in Sources */,
+				036F976F1E7DC54300AA5D15 /* LoginModel.swift in Sources */,
+				036F97711E7DC5CB00AA5D15 /* RegisterVC.swift in Sources */,
+				03D55E041E5DF25900FAC9F1 /* ShowSplashScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F4E4561E5B965A00758D04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F4E45F1E5B965A00758D04 /* TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F4E4611E5B965A00758D04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F4E46A1E5B965A00758D04 /* TestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03F4E45C1E5B965A00758D04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03F4E4451E5B965A00758D04 /* Wavemap */;
+			targetProxy = 03F4E45B1E5B965A00758D04 /* PBXContainerItemProxy */;
+		};
+		03F4E4671E5B965A00758D04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03F4E4451E5B965A00758D04 /* Wavemap */;
+			targetProxy = 03F4E4661E5B965A00758D04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03F4E44D1E5B965A00758D04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03F4E44E1E5B965A00758D04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03F4E46C1E5B965A00758D04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03F4E46D1E5B965A00758D04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03F4E46F1E5B965A00758D04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2895B3511987F5502029B62B /* Pods-Wavemap.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WLLZKFZEM6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Arno-de-Jonge.Wavemap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03F4E4701E5B965A00758D04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60A9E15E73B069AA4F2C51C5 /* Pods-Wavemap.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WLLZKFZEM6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Arno-de-Jonge.Wavemap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		03F4E4721E5B965A00758D04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZVQU83DR2L;
+				INFOPLIST_FILE = TestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Arno-de-Jonge.TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wavemap.app/Wavemap";
+			};
+			name = Debug;
+		};
+		03F4E4731E5B965A00758D04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZVQU83DR2L;
+				INFOPLIST_FILE = TestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Arno-de-Jonge.TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wavemap.app/Wavemap";
+			};
+			name = Release;
+		};
+		03F4E4751E5B965A00758D04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ZVQU83DR2L;
+				INFOPLIST_FILE = TestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Arno-de-Jonge.TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Test;
+			};
+			name = Debug;
+		};
+		03F4E4761E5B965A00758D04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ZVQU83DR2L;
+				INFOPLIST_FILE = TestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Arno-de-Jonge.TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Test;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03F4E4411E5B965A00758D04 /* Build configuration list for PBXProject "Wavemap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F4E46C1E5B965A00758D04 /* Debug */,
+				03F4E46D1E5B965A00758D04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03F4E46E1E5B965A00758D04 /* Build configuration list for PBXNativeTarget "Wavemap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F4E46F1E5B965A00758D04 /* Debug */,
+				03F4E4701E5B965A00758D04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03F4E4711E5B965A00758D04 /* Build configuration list for PBXNativeTarget "WavemapWavemaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F4E4721E5B965A00758D04 /* Debug */,
+				03F4E4731E5B965A00758D04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03F4E4741E5B965A00758D04 /* Build configuration list for PBXNativeTarget "WavemapUIWavemaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F4E4751E5B965A00758D04 /* Debug */,
+				03F4E4761E5B965A00758D04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03F4E43E1E5B965A00758D04 /* Project object */;
+}
